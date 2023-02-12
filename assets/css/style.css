@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: 'Libre Franklin', sans-serif;
+}
+header {
+    display :flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba( 0 , 0 , 0 , 0.2 );
+    padding: 20px;
+    background-color: #ddd;
+}
+.name {
+    color: #333;
+    font-size: 26px;
+    margin: 0;
+    flex-grow: 1;
+    font-weight: bold;
+}
+.myClass {
+    color: #f77;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+.myCv {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f88;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+.myCv:hover {
+    color: #f88;
+    background-color: #fff;
+}
+.cvIcon {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contanier {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1.2;
+    gap:15px;
+}
+button {
+    background-color: #666;
+    color:#fff;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+.dark2 {
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #333;
+}
+.dark3 {
+    background-color: #555;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contanier1 {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(0 , 0 , 0 , 0.2);
+    border-radius: 20px;
+}
+.skillPhoto , .educPhoto {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    object-fit:cover;
+    padding-top: 5px;
+}
+.skillTitle , .educTitle{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.gray {
+    color: #988;
+    font-size: 14px;
+}
+.contanier2 {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(0 , 0 , 0 , 0.2);
+    border-radius: 20px;
+}
+.contanier3 {
+    width: 100%;
+    border: 2px solid rgba(0 , 0 , 0 , 0.2);
+    border-radius: 20px;
+    padding: 15px;
+}
+.education , .divers , .langue , .profile , .skills , .liens{
+    font-size: 20px;
+    padding: 10px 20px;
+    line-height: 30px;
+}
+.langTitle , .diverTitle , .profTitle , .liensTitle{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: #988;
+}
+footer {
+    text-align: center;
+    border-top: 0.5px solid rgba( 0 , 0 , 0 , 0.2 );
+    padding: 20px;
+    background-color: #ddd;
+}
